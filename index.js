@@ -1,11 +1,7 @@
 /* vim: set shiftwidth=2 tabstop=2 noexpandtab textwidth=80 wrap : */
 "use strict";
 
-try {
-	var Emitter = require('emitter');
-} catch (e) {
-	Emitter = require('component-emitter');
-}
+var Emitter = require('emitter');
 
 module.exports = createModel;
 
